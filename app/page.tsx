@@ -20,7 +20,7 @@ export default function HomePage() {
       <div className="bg-[#f9fafb] p-6 rounded-2xl shadow-md hover:shadow-xl hover:scale-[1.02] transition-transform duration-300 ease-in-out ring-1 ring-gray-300">
         <h2 className="text-2xl font-semibold mb-2">About Me</h2>
         <p className="text-gray-700 leading-relaxed">
-          I'm a passionate web developer with experience in building responsive and interactive websites using modern technologies like React, Next.js, and TailwindCSS. I love solving problems and bringing ideas to life on the web.
+          {`I'm`} a passionate web developer with experience in building responsive and interactive websites using modern technologies like React, Next.js, and TailwindCSS. I love solving problems and bringing ideas to life on the web.
         </p>
       </div>
 
@@ -32,7 +32,7 @@ export default function HomePage() {
           <li>🧩 Solving coding challenges</li>
           <li>
             <span className="inline-flex items-center space-x-2">
-              <img src="https://leetcode.com/favicon.ico" alt="LeetCode" className="w-4 h-4" />
+              <Image src="https://leetcode.com/favicon.ico" alt="LeetCode" className="w-4 h-4" />
               <span><span className="text-[#FFA116] font-bold">Leetcode</span> Hunters (just kidding but i really wish it was like that~~ 😄)</span>
             </span>
           </li>

@@ -30,7 +30,7 @@ export default function ProjectsPage() {
         <section className="max-w-4xl mx-auto px-4 py-8 space-y-6">
             <div className="text-center">
                 <h2 className="text-3xl font-bold">My <span className="text-indigo-600 font-bold">Featured</span> Projects</h2>
-                <p className="text-gray-600 mt-2">Some personal & learning projects I've worked on</p>
+                <p className="text-gray-600 mt-2">Some personal & learning projects {`I'm`} worked on</p>
             </div>
 
             <div className="space-y-4">
